@@ -1,0 +1,13 @@
+38 ラムダ式
+https://www.youtube.com/watch?v=1On0VZLaR9g 
+
+39 ラムダ式省略記法
+https://www.youtube.com/watch?v=LPvQujYekyk
+
+40 関数型インターフェースの種類
+https://www.youtube.com/watch?v=roO5eHxk2CA&t=667s
+
+41 メソッド参照
+https://www.youtube.com/watch?v=3vvqMmfuvJk
+
+
