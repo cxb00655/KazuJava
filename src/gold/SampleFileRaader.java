@@ -1,5 +1,6 @@
 package gold;
 
+import java.io.BufferedReader;
 import java.io.FileReader;
 
 public class SampleFileRaader {
@@ -19,7 +20,7 @@ public class SampleFileRaader {
 				reader.close();
 			}
 		}
-
+		System.out.println("FileReader");
 		
 		FileReader reader2 = new FileReader("c:\\work\\test01.sh");
 		try(reader2) {
@@ -30,6 +31,23 @@ public class SampleFileRaader {
 			}
 		}
 		
+		System.out.println("BufferedReader");
+		FileReader fr = new FileReader("c:\\work\\test01.sh");
+		BufferedReader br = new BufferedReader(fr);
+		try (br) {
+			String line = null;
+			while((line = br.readLine()) !=null) {
+				System.out.println(line);
+			}
+		}
+		
+
+		System.out.println("BufferedReader.lines");
+		FileReader fr2 = new FileReader("c:\\work\\test01.sh");
+		BufferedReader br2 = new BufferedReader(fr2);
+		try (br2) {
+			br2.lines().forEach(System.out::println);
+		}
 
 		
 		

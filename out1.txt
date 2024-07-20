@@ -1,0 +1,4 @@
+Hello, Java! - 1
+Hello, Java! - 2
+
+buffering output
