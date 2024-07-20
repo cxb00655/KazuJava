@@ -1,3 +1,4 @@
+
 package gold;
 
 import java.util.concurrent.ForkJoinPool;
