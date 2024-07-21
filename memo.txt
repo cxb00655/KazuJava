@@ -1,0 +1,16 @@
+https://db.apache.org/derby/releases/release-10_15_2_0.html
+
+java -jar lib/derbyrun.jar server start
+java -jar lib/derbyrun.jar ij
+connect 'jdbc:derby://localhost:1527/work/SampleDB;create=true';
+create table item(id int primary key, name varchar(20));
+
+
+ij> insert into item values(1,'sample');
+1行が挿入/更新/削除されました
+ij> insert into item values(2,'kazu');
+1行が挿入/更新/削除されました
+ij> insert into item values(3,'takara');
+1行が挿入/更新/削除されました
+ij> insert into item values(4,'mama');
+

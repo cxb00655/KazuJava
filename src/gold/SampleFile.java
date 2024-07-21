@@ -8,7 +8,7 @@ public class SampleFile {
 	public static void main(String[] args) throws IOException {
 		// TODO 自動生成されたメソッド・スタブ
 		
-		File file = new File("c:\\work\\SampleFile.txt");
+		File file = new File("SampleFile.txt");
 		if (!file.exists()) {
 			file.createNewFile();
 		}
@@ -20,7 +20,7 @@ public class SampleFile {
 		System.out.println("getParent : "+file.getParent());
 		System.out.println("getPath : "+file.getPath());
 		
-		File currentDir = new File("c:\\work");
+		File currentDir = new File(".");
 		showTree(currentDir,"");
 		
 	}

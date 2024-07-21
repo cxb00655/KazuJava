@@ -8,13 +8,13 @@ public class SampleFileFilter {
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 
-		File rootdir = new File("c:\\work");
+		File rootdir = new File(".");
 		
 		FileFilter filter = (path) -> {
 			if (path.isDirectory()) {
 				return true;
 			}
-			if (path.getName().endsWith(".sh")) {
+			if (path.getName().endsWith(".java")) {
 				return true;
 			}
 			return false;
