@@ -1,5 +1,6 @@
 https://db.apache.org/derby/releases/release-10_15_2_0.html
 
+pathにjava11をとおす
 java -jar lib/derbyrun.jar server start
 java -jar lib/derbyrun.jar ij
 connect 'jdbc:derby://localhost:1527/work/SampleDB;create=true';
