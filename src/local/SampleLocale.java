@@ -46,6 +46,11 @@ public class SampleLocale {
 				.setRegion("JP")
 				.setScript("Jpan")
 				.build();
+		
+		Locale tag = Locale.forLanguageTag("en-US-x-lvariant-POSIX");
+		System.out.println(tag);
+		
+		
 	}
 
 }
