@@ -4,6 +4,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.util.Properties;
+import java.util.ResourceBundle;
 import java.util.Set;
 
 public class SampleProperties {
@@ -30,7 +31,8 @@ public class SampleProperties {
 		prop2.load(new FileReader("sample2.properties",Charset.forName("UTF-8")));       
 		System.out.println("Key1 is "+prop2.getProperty("Key1"));
 		
-		
+		ResourceBundle resource =ResourceBundle.getBundle("sample3");
+		System.out.println(resource.getString("Key3"));
 		
 		
         
