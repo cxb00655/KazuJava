@@ -1,4 +1,4 @@
-package gold;
+package thread;
 
 /* Threadを継承したサンプル */
 public class SampleThread extends Thread{

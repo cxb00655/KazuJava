@@ -1,4 +1,4 @@
-package gold;
+package thread;
 
 /* Runnableをラムダ式で実装したサンプル */
 public class SampleRunnable {

@@ -1,4 +1,4 @@
-package gold;
+package thread;
 
 import java.util.concurrent.RecursiveTask;
 
