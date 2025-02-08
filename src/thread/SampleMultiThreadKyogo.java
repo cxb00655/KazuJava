@@ -13,6 +13,7 @@ public class SampleMultiThreadKyogo implements Runnable {
 		ExecutorService exec = Executors.newFixedThreadPool(2);
 		exec.submit(s);
 		exec.submit(s);
+
 		
 		try {
 			Thread.sleep(200);
