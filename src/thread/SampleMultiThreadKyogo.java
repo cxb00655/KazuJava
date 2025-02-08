@@ -15,6 +15,7 @@ public class SampleMultiThreadKyogo implements Runnable {
 		exec.submit(s);
 
 		
+		
 		try {
 			Thread.sleep(200);
 		} catch (InterruptedException e) {
